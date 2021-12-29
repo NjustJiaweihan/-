@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://njustjiaweihan.github.io</id>
     <title>Gridea</title>
-    <updated>2021-12-29T15:49:10.934Z</updated>
+    <updated>2021-12-29T15:51:55.072Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://njustjiaweihan.github.io"/>
     <link rel="self" href="https://njustjiaweihan.github.io/atom.xml"/>
@@ -10,6 +10,15 @@
     <logo>https://njustjiaweihan.github.io/images/avatar.png</logo>
     <icon>https://njustjiaweihan.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, Gridea</rights>
+    <entry>
+        <title type="html"><![CDATA[写在2021年尾巴上]]></title>
+        <id>https://njustjiaweihan.github.io/post/xie-zai-2021-nian-wei-ba-shang/</id>
+        <link href="https://njustjiaweihan.github.io/post/xie-zai-2021-nian-wei-ba-shang/">
+        </link>
+        <updated>2021-12-29T15:51:22.000Z</updated>
+        <content type="html"><![CDATA[<p>啥也没有</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
         <id>https://njustjiaweihan.github.io/post/hello-gridea/</id>
