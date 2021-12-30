@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://njustjiaweihan.github.io</id>
     <title>colin Blog</title>
-    <updated>2021-12-30T15:42:14.926Z</updated>
+    <updated>2021-12-30T16:01:04.668Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://njustjiaweihan.github.io"/>
     <link rel="self" href="https://njustjiaweihan.github.io/atom.xml"/>
@@ -10,6 +10,19 @@
     <logo>https://njustjiaweihan.github.io/images/avatar.png</logo>
     <icon>https://njustjiaweihan.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, colin Blog</rights>
+    <entry>
+        <title type="html"><![CDATA[写在2021年尾巴上]]></title>
+        <id>https://njustjiaweihan.github.io/post/xie-zai-2021-nian-wei-ba-shang/</id>
+        <link href="https://njustjiaweihan.github.io/post/xie-zai-2021-nian-wei-ba-shang/">
+        </link>
+        <updated>2021-12-30T15:44:07.000Z</updated>
+        <summary type="html"><![CDATA[<p>其实早在年中就开始酝酿着一篇这样的总结，这一年与我而言实在是太丰富了。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>其实早在年中就开始酝酿着一篇这样的总结，这一年与我而言实在是太丰富了。</p>
+<!-- more -->
+<p>我一直在想用什么词语概括今年的状态，想不清楚，就像这片博客的主图，换了又换。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[所有伟大都源于勇敢的开始]]></title>
         <id>https://njustjiaweihan.github.io/post/suo-you-wei-da-du-yuan-yu-yong-gan-de-kai-shi/</id>
