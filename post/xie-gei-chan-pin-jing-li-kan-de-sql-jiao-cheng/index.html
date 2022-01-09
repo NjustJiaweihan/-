@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" >
+
+<title>写给产品经理看的sql教程 | Colin Blog</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://njustjiaweihan.github.io/favicon.ico?v=1641714666215">
+<link rel="stylesheet" href="https://njustjiaweihan.github.io/styles/main.css">
+
+
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+
+
+    <meta name="description" content="技多不压身
+
+相信点开这篇博客的产品经理们已经或多或少知道sql为何物，但是对于如何写sql也就是sql语法还没有系统地熟悉，对于sql这种数据访问命令的用途以及对工作的帮助还不了解。这篇博客就从三个方面给产品大大们恶补一下sql知识，让大..." />
+    <meta name="keywords" content="" />
+  </head>
+  <body>
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://njustjiaweihan.github.io">
+        <img src="https://njustjiaweihan.github.io/images/avatar.png?v=1641714666215" class="site-logo">
+        <h1 class="site-title">Colin Blog</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
+      
+        
+          <a href="/" class="site-nav">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="site-nav">
+            归档
+          </a>
+        
+      
+        
+          <a href="/tags" class="site-nav">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="site-nav">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      克林的自留地
+    </div>
+    <div class="site-footer">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://njustjiaweihan.github.io/atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
+</div>
+
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">写给产品经理看的sql教程</h2>
+            <div class="post-date">2022-01-09</div>
+            
+              <div class="feature-container" style="background-image: url('https://njustjiaweihan.github.io/post-images/xie-gei-chan-pin-jing-li-kan-de-sql-jiao-cheng.JPG')">
+              </div>
+            
+            <div class="post-content" v-pre>
+              <p>技多不压身</p>
+<!-- more -->
+<p>相信点开这篇博客的产品经理们已经或多或少知道sql为何物，但是对于如何写sql也就是sql语法还没有系统地熟悉，对于sql这种数据访问命令的用途以及对工作的帮助还不了解。这篇博客就从三个方面给产品大大们恶补一下sql知识，让大家工作中不求人。</p>
+<h2 id="什么是sql">什么是sql</h2>
+<p>后端服务一般需要存储用户数据，数据的组织形式可以大致想像成excel表格，每一行是一条记录数据，有很多列，代表不同字段信息。比如表格student是存储学生信息（包括学号，姓名，性别，年龄）。</p>
+<p>sql的命令主要包括<code>select</code>(查询数据)，<code>update</code>(更新数据)，<code>delete</code>(删除数据)等，产品经理使用sql更多是查询数据，也就是<code>select</code>命令，对于记录学生数据的表格A，我们可以一句查询的sql从中读出来我们想要的数据，比如</p>
+<pre><code class="language-sql">select * from student where number = 1002;
+</code></pre>
+<p>就可以把学号是1002的学生信息查出来。我们来解析下这句sql：其中<code>select * from student</code>的含义是从<code>student</code>这张表格里查询(<code>select</code>)所有(<code>*</code>)数据，很语义化，其实蛮好理解的；接下来是<code>where number = 1002</code>，sql语句中<code>where</code>用来表示过滤条件，因为我们要查学号是1002的学生信息，所以过滤条件就是“学号等于1002”。</p>
+<h2 id="sql查询语法">sql查询语法</h2>
+<p>说一下OLAP(hive)和OLTP(mysql)</p>
+<h2 id="sql在工作中的帮助">sql在工作中的帮助</h2>
+<ol>
+<li>做数据分析</li>
+<li>产品验收时查看数据情况</li>
+<li>...</li>
+</ol>
+<h2 id="你也想试试了">你也想试试了</h2>
+<p>mysql安装<br>
+navicat安装</p>
+
+            </div>
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://njustjiaweihan.github.io/post/xie-zai-2022-nian-de-tou-yi-tian/">
+                  <h3 class="post-title">
+                    写在2022年的头一天
+                  </h3>
+                </a>
+              </div>
+            
+
+            
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="application/javascript">
+
+AOS.init();
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+
+
+
+  </body>
+</html>
