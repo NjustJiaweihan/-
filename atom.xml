@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://njustjiaweihan.github.io</id>
     <title>Colin Blog</title>
-    <updated>2022-01-09T07:59:35.656Z</updated>
+    <updated>2022-05-02T13:15:09.321Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://njustjiaweihan.github.io"/>
     <link rel="self" href="https://njustjiaweihan.github.io/atom.xml"/>
@@ -11,33 +11,17 @@
     <icon>https://njustjiaweihan.github.io/favicon.ico</icon>
     <rights>All rights reserved 2022, Colin Blog</rights>
     <entry>
-        <title type="html"><![CDATA[写给产品经理看的sql教程]]></title>
-        <id>https://njustjiaweihan.github.io/post/xie-gei-chan-pin-jing-li-kan-de-sql-jiao-cheng/</id>
-        <link href="https://njustjiaweihan.github.io/post/xie-gei-chan-pin-jing-li-kan-de-sql-jiao-cheng/">
+        <title type="html"><![CDATA[看向自己]]></title>
+        <id>https://njustjiaweihan.github.io/post/kan-xiang-zi-ji/</id>
+        <link href="https://njustjiaweihan.github.io/post/kan-xiang-zi-ji/">
         </link>
-        <updated>2022-01-09T07:12:15.000Z</updated>
-        <summary type="html"><![CDATA[<p>技多不压身</p>
+        <updated>2022-01-19T15:12:50.000Z</updated>
+        <summary type="html"><![CDATA[<p>这两年似乎一下子开了窍，理解了很多之前不理解的事情，不能说通透了，但至少洒脱了很多。</p>
 ]]></summary>
-        <content type="html"><![CDATA[<p>技多不压身</p>
+        <content type="html"><![CDATA[<p>这两年似乎一下子开了窍，理解了很多之前不理解的事情，不能说通透了，但至少洒脱了很多。</p>
 <!-- more -->
-<p>相信点开这篇博客的产品经理们已经或多或少知道sql为何物，但是对于如何写sql也就是sql语法还没有系统地熟悉，对于sql这种数据访问命令的用途以及对工作的帮助还不了解。这篇博客就从三个方面给产品大大们恶补一下sql知识，让大家工作中不求人。</p>
-<h2 id="什么是sql">什么是sql</h2>
-<p>后端服务一般需要存储用户数据，数据的组织形式可以大致想像成excel表格，每一行是一条记录数据，有很多列，代表不同字段信息。比如表格student是存储学生信息（包括学号，姓名，性别，年龄）。</p>
-<p>sql的命令主要包括<code>select</code>(查询数据)，<code>update</code>(更新数据)，<code>delete</code>(删除数据)等，产品经理使用sql更多是查询数据，也就是<code>select</code>命令，对于记录学生数据的表格A，我们可以一句查询的sql从中读出来我们想要的数据，比如</p>
-<pre><code class="language-sql">select * from student where number = 1002;
-</code></pre>
-<p>就可以把学号是1002的学生信息查出来。我们来解析下这句sql：其中<code>select * from student</code>的含义是从<code>student</code>这张表格里查询(<code>select</code>)所有(<code>*</code>)数据，很语义化，其实蛮好理解的；接下来是<code>where number = 1002</code>，sql语句中<code>where</code>用来表示过滤条件，因为我们要查学号是1002的学生信息，所以过滤条件就是“学号等于1002”。</p>
-<h2 id="sql查询语法">sql查询语法</h2>
-<p>说一下OLAP(hive)和OLTP(mysql)</p>
-<h2 id="sql在工作中的帮助">sql在工作中的帮助</h2>
-<ol>
-<li>做数据分析</li>
-<li>产品验收时查看数据情况</li>
-<li>...</li>
-</ol>
-<h2 id="你也想试试了">你也想试试了</h2>
-<p>mysql安装<br>
-navicat安装</p>
+<p>人的悲喜本就不相同</p>
+<p>我骨子里还是个懦弱的人</p>
 ]]></content>
     </entry>
     <entry>
